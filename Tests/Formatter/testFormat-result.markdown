@@ -1,3 +1,87 @@
+# Popo #
+
+### `GET` /popos ###
+
+_Retrieves the collection of Popo resources._
+
+#### Response ####
+
+foo:
+
+  * type: string
+
+
+### `POST` /popos ###
+
+_Creates a Popo resource._
+
+#### Parameters ####
+
+foo:
+
+  * type: string
+  * required: false
+
+#### Response ####
+
+foo:
+
+  * type: string
+
+
+### `DELETE` /popos/{id} ###
+
+_Deletes the Popo resource._
+
+#### Requirements ####
+
+**id**
+
+  - Type: string
+
+
+### `GET` /popos/{id} ###
+
+_Retrieves Popo resource._
+
+#### Requirements ####
+
+**id**
+
+  - Type: int
+
+#### Response ####
+
+foo:
+
+  * type: string
+
+
+### `PUT` /popos/{id} ###
+
+_Replaces the Popo resource._
+
+#### Requirements ####
+
+**id**
+
+  - Type: string
+
+#### Parameters ####
+
+foo:
+
+  * type: string
+  * required: false
+
+#### Response ####
+
+foo:
+
+  * type: string
+
+
+
 ## /api/other-resources ##
 
 ### `GET` /api/other-resources.{_format} ###
